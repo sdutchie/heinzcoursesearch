@@ -1,6 +1,13 @@
 # Heinz Course Search Platform
 
-The purpose of this program is to allow users to search for and view Heinz course information across three sources: Heinz course catalog, Schedule of Classes, and Faculty Course Evaluations.
+This projects was created as the final project for Intermediate Programming in Python course at Heinz College in Fall of 2020 by the following individuals:
+* Alyson Caito
+* Shannon Dutchie
+* Tobi Jegede
+* Sanjana Parmar
+
+
+Purpose: The purpose of this program is to allow users to search for and view Heinz course information across three sources: Heinz course catalog, Schedule of Classes, and Faculty Course Evaluations.
 
 ## Initializing
 
