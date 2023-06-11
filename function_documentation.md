@@ -4,7 +4,7 @@ This function takes a course number as an argument and reads in a csv file into 
 ### Function #2:  `getHeinzCourseCatalog(course_num)`
 This function takes a course number as an argument and then appends that course number string to a url string for the Heinz Course Catalog. The contents of the course page related to the specified course number are returned and then parsed according to the section headers on the course page, namely course units, class name, description, learning outcomes, prerequisites, and syllabi. If there is no associated course page, then the user is returned to the menu_execution() function. If the course page does exist for the course, then a list is returned with the course number, course name, number of course units, description, learning outcomes, prerequisites, and the syllabi. 
 
-## Function #3: `menu()`
+### Function #3: `menu()`
 This function displays a list of menu options to the user and prompts them to input the number associated with the menu option that they would like. This input is then converted to an integer value. If this integer is not in the list of allowable menu options, then the user is continually prompted until they enter a valid menu option. The integer value for the menu option is returned from this function to wherever it was called from.
 
 ### Function #4: `menu_execution(course_num , request_code)`
