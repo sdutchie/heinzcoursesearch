@@ -55,7 +55,7 @@ The user should type the corresponding number for the menu item they would like 
 
 ## Menu Options
 
-Below is a description of each of the eight menu options.
+Below is a description of each of the eight menu options. There is also additional documentation for each function [here](./function_documentation.md)
 
 *0:  Quit* 
 Entering 0 will display the message “Thanks for using our platform! Have a good day!” and close the program. The user should enter this option when they are finished using the program.
