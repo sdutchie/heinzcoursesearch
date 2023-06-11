@@ -81,6 +81,7 @@ The menu will appear again so that the user may section another option after ret
 If the user has not saved the “Course_Evaluation_Results.csv” in the same directory as the program file or has named the file differently, the program will display an error message and close when the user tries to access menu option #3. It will do the same for the other menu options that return course evaluation information such as menu option #5 and menu option #8. 
 
 *4: Course Overview (Course Name, Description, and # of Units)*
+
 Menu option 4 returns the following information from the Heinz Course Catalog:
 Course Name
 Course Description
@@ -88,13 +89,17 @@ Number of units
 The menu will appear again after returning the course information. If the course number does not exist in the Heinz Course Catalog, the user will receive an error message and be prompted to enter a new menu option.
 
 *5: All Course Information*
+
 This option returns all course information contained in Menu item #1 (schedule information), Menu item #2 (department name), Menu item #3 (Faculty course evaluations), and Menu item #4 (Course overview). Additionally, the course learning outcomes, course prerequisites, and course syllabi (if available) from the Heinz Course Catalog will be displayed. If any of the above information is not available, a message displaying it is not available will appear in its place. After returning the course information, the menu will appear again allowing the user to select another option.
 
 *6: Course Syllabi* 
+
 If course syllabi are available, this option will return the link to the syllabus for each of the instructors who have posted a syllabus. If there are no syllabi available for the course, the user will receive the message “There are no available syllabi for this course” and the menu will appear again so that the user may enter another option.
 
 *7: Request a New Course Number*
+
 Users should select this option if they would like to see information for a different course number than the one they initially entered. After selecting option 7, the user will be prompted to enter a new course number in the format “XX-XXX”. If they do not enter the number in the correct format, they will be prompted to enter the course number again. After entering a valid course number, the full menu will appear.
 
 *8: Comparison of Two Different Course*
+
 This option allows the user to compare Faculty Course Evaluation information for two different course numbers. When the user selects this option the current course number that has been entered will appear as the first course to compare, and the user will be prompted to enter another course number (format should be XX-XXX). This menu option will then return the faculty course evaluation information for both courses (see menu item #3 for details on specific information returned). If any of the course numbers do not have course evaluation information, there will be a message indicating that information does not exist. The menu will appear again after the information is returned so the user can select another option.
